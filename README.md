@@ -9,7 +9,9 @@ The direct feature engineering reads in the data from data/clean, and output the
   - A lasso regression model was used as a baseline
   - A RandomForestRegression model
   - A KNN model
-4. After model selection was done and the RandomForestRegression model was chosen, it was further developed and a more comprehensive drop_list and feature importance were done to develop our final model
+Models were processed using a pipeline and validated using cross-validation.
+ 
+4. After model selection was done and the RandomForestRegression model was chosen, it was developed and a more comprehensive drop_list and feature importance were done to develop our final model. Hyper parameter turning was done using a Random Search to further improve the model.
 
 All modeling was done in tidy format using sklearn's library of modeling tools
 
