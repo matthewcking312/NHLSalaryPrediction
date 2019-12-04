@@ -24,6 +24,6 @@ Evaluation metrics of MedAE and MAPE were used to look at the success of the var
   - Random Forest
   - KNN
   
-  The Random Forest Model was chosen as our final model. After looking at feature important in relation to this model using Github user Parrt's rfpimp package, we dropped unimportant columns and refit. This model was then run on our test set to establish the final evaluation score for our model.
+  The Random Forest Model was chosen as our final model. After looking at feature important in relation to this model using Github user Parrt's [rfpimp package](https://github.com/parrt/random-forest-importances), we dropped unimportant columns and refit. This model was then run on our test set to establish the final evaluation score for our model.
   
 EDA and Model Visulations can be found [here](https://github.com/matthewcking312/NHLSalaryPrediction/tree/master/images)
