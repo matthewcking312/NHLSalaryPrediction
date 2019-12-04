@@ -6,7 +6,7 @@ Inspired by the past Kaggle competition of [NHL Data](https://www.kaggle.com/cam
 The notebook would read in the data from data/clean, and output the data to data/processed
 2. Exploratory Data Analysis was done to find logical trends and visualization of data in the EDA.ipynb notebook
 3. Three different Models were fitted to the processed data
-  - A lasso regression model was used as a baseline and was fitted in the Baseline_Model.ipynb notebook
+  - A lasso regression model was used as a baseline and was fitted in the [Baseline_Model notebook](https://github.com/matthewcking312/NHLSalaryPrediction/blob/master/Baseline_Model.ipynb)
   - A RandomForestRegression model was fitted in the ML_Lab_Project_Practice.ipynb notebook
   - A KNN model was fitted in the KNN.ipynb notebook
 4. After model selection was done and the RandomForestRegression model was chosen, it was further developed in the ML_Lab_Project.ipynb notebook. A more comprehensive drop_list and feature importance was done to develop our final model
