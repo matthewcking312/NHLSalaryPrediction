@@ -1,5 +1,5 @@
 # NHL Salary Prediction
-Inspired by the past Kaggle competition (https://www.kaggle.com/camnugent/predict-nhl-player-salaries#train.csv), using game stats on NHL Players, we will fit multiple models to predict the player salary. For USF's MSDS 699 course, we document our modeling process to demonstrate our Machine Learning efforts in this project.
+Inspired by the past Kaggle competition of [NHL Data](https://www.kaggle.com/camnugent/predict-nhl-player-salaries#train.csv), using game stats on NHL Players, we will fit multiple models to predict the player salary. For USF's MSDS 699 course, we document our modeling process to demonstrate our Machine Learning efforts in this project.
 
 ## Workflow of this repository
 1. Direct Feature engineering was done in the Processing_Data.ipynb.
@@ -13,4 +13,10 @@ The notebook would read in the data from data/clean, and output the data to data
 
 All modeling was done in tidy format using sklearn's library of modeling tools
 
-##
+## Results
+
+Evaluation metrics of MedAE and MAPE were used to look at the success of the various models. Testing was done on a test set of a 80/20 split.
+
+Lasso - MAPE = 73.4% error, MedAE = $717,794.25
+Random Forest - MAPE = 54.4%, MedAE = $508,910.19
+KNN - MAPE = 59.7% error, MedAE = $588,888.89
