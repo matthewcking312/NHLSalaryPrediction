@@ -7,7 +7,7 @@ All work consolidated onto [one jupyter notebook](https://github.com/matthewckin
 The direct feature engineering reads in the data from data/clean, and output the data to data/processed
 2. Exploratory Data Analysis was done to find logical trends and visualization of data
 3. Three different regressor models were fitted to the processed data
-  - A lasso regression model was used as a baseline
+  - A ridge regression model was used as a baseline
   - A RandomForestRegression model
   - A KNN model
 Models were processed using a pipeline and validated using cross-validation.
