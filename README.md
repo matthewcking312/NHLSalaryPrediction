@@ -17,8 +17,8 @@ All modeling was done in tidy format using sklearn's library of modeling tools
 
 ## Results
 
-Evaluation metrics of MedAE and MAPE were used to look at the success of the various models. Testing was done on a test set of a 80/20 split.
+Evaluation metrics of MedAE and MAPE were used to look at the success of the various models. Testing was done on a test set of a 75/25 split.
 
-  - Lasso - MAPE = 73.4% error, MedAE = $717,794.25
+  - Ridge Regression - MAPE = 72.48% error, MedAE = $713,134.33
   - Random Forest - MAPE = 54.4%, MedAE = $508,910.19
-  - KNN - MAPE = 59.7% error, MedAE = $588,888.89
+  - KNN - MAPE = 71.2% error, MedAE = $758,416.13
