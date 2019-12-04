@@ -17,6 +17,6 @@ All modeling was done in tidy format using sklearn's library of modeling tools
 
 Evaluation metrics of MedAE and MAPE were used to look at the success of the various models. Testing was done on a test set of a 80/20 split.
 
-Lasso - MAPE = 73.4% error, MedAE = $717,794.25
-Random Forest - MAPE = 54.4%, MedAE = $508,910.19
-KNN - MAPE = 59.7% error, MedAE = $588,888.89
+  - Lasso - MAPE = 73.4% error, MedAE = $717,794.25
+  - Random Forest - MAPE = 54.4%, MedAE = $508,910.19
+  - KNN - MAPE = 59.7% error, MedAE = $588,888.89
