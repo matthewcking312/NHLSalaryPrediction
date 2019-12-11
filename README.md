@@ -13,7 +13,7 @@ The direct feature engineering reads in the data from data/clean, and output the
   - A ridge regression model was used as a baseline
   - A RandomForestRegression model
   - A KNN model
-Models were processed using a pipeline and validated using cross-validation.
+Models were processed using a pipeline and validated using cross-validation for all metrics.
 
 4. After model selection was completed and the RandomForestRegression model was chosen, it was developed and a more comprehensive drop_list and feature importance were done to develop our final model. Hyperparameter tuning was done using a Random Search to further improve the model.
 
@@ -21,7 +21,7 @@ All modeling was done in tidy format using sklearn's library of modeling tools
 
 ## Results
 
-Evaluation metrics of MedAE and MAPE were used to look at the success of the various models. Testing was done on a test set of a 75/25 split.
+Evaluation metrics of MedAE and symmetric MAPE (sMAPE) were used to look at the success of the various models. Testing was done on a test set of a 70/30 split.
 
   - Ridge Regression
   - Random Forest
