@@ -1,6 +1,9 @@
 # NHL Salary Prediction
 Inspired by the past Kaggle competition of [NHL Data](https://www.kaggle.com/camnugent/predict-nhl-player-salaries#train.csv), using game stats on NHL Players, we will fit multiple models to predict the players' salary. For USF's MSDS 699 course, we document our modeling process to demonstrate our Machine Learning efforts in this project.
 
+## Directions on how to navigate this directory
+Before running notebook, please find the [enviroment yaml file](https://github.com/matthewcking312/NHLSalaryPrediction/blob/master/enviroment.yaml) in the root of this repository. Using your virtual enviroment of choice with this requirments file will ensure the packages are up to date. For our analysis we used the packages lxml and plotly.
+
 ## Workflow of this repository
 All work consolidated onto [one jupyter notebook](https://github.com/matthewcking312/NHLSalaryPrediction/blob/master/The_Big_One_Final_Project_Notebook.ipynb)
 1. Direct Feature engineering was done on the raw dataset
